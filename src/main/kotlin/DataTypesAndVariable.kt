@@ -14,3 +14,4 @@ fun main() {
     val string: String = "This Is A String"
     println("$number $boolean $char $string")
 }
+

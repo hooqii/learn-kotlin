@@ -14,6 +14,6 @@ fun main() {
     \" Adding double quotes
     \\ Adding backslash
     */
-    val indexing = string[0]
-    print("$string $rawString $indexing")
+    val indexZeroOfString = string[0]
+    print("$string $rawString $indexZeroOfString")
 }

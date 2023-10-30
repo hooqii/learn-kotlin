@@ -1,7 +1,12 @@
+//"fun" is the function key in Kotlin.
+//After fun key followed by function name
+//The function have a parameter placed in parentheses
+//After parameter function have an expression or return body
+
 fun main() {
     val (price, quantity) = wilson()
-    var totalPrice = calculateTotalPrice(price, quantity)
-    var discountPercent = calculateDiscountPercent(totalPrice)
+    val totalPrice = calculateTotalPrice(price, quantity)
+    val discountPercent = calculateDiscountPercent(totalPrice)
     val discountPrice = totalPrice * discountPercent / 100
     val finalPrice = totalPrice - discountPrice
     println(
@@ -14,6 +19,7 @@ fun main() {
         and the final price is $finalPrice
     """.trimIndent()
     )
+    myName("Alex")
 }
 
 fun calculateTotalPrice(price: Int, quantity: Int): Int {
@@ -34,3 +40,5 @@ fun wilson(): Pair<Int, Int> {
     val quantity = 5
     return Pair(price, quantity)
 }
+
+fun myName (name: String) = println("My Name Is $name")

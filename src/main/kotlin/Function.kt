@@ -20,6 +20,7 @@ fun main() {
     """.trimIndent()
     )
     println(myName("Alex"))
+    user("Wilson", 17)
 }
 
 fun calculateTotalPrice(price: Int, quantity: Int): Int {
@@ -42,3 +43,7 @@ fun wilson(): Pair<Int, Int> {
 }
 
 fun myName (name: String) = "My Name Is $name"
+
+fun user(name: String, age: Int) {
+    println("My name is $name and i am $age years old")
+}

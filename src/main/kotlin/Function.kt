@@ -19,7 +19,8 @@ fun main() {
         and the final price is $finalPrice
     """.trimIndent()
     )
-    myName("Alex")
+    println(myName("Alex"))
+    user("Wilson", 17)
 }
 
 fun calculateTotalPrice(price: Int, quantity: Int): Int {
@@ -41,4 +42,8 @@ fun wilson(): Pair<Int, Int> {
     return Pair(price, quantity)
 }
 
-fun myName (name: String) = println("My Name Is $name")
+fun myName (name: String) = "My Name Is $name"
+
+fun user(name: String, age: Int) {
+    println("My name is $name and i am $age years old")
+}

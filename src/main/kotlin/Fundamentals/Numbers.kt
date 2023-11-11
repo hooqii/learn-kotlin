@@ -1,4 +1,4 @@
-import kotlin.math.max
+package Fundamentals
 
 /*
 We can use underscore for numbers(_)

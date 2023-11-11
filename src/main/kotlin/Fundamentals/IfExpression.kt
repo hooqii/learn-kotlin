@@ -1,3 +1,5 @@
+package Fundamentals
+
 fun main() {
     val (testScore, midExamScore, finalExamScore) = score()
     examPass(testScore, midExamScore, finalExamScore)

@@ -1,3 +1,5 @@
+package Fundamentals
+
 fun testCalculatePercent(totalPrice: Int): Int {
     return when {
         totalPrice in 20_000..50_000 -> 5

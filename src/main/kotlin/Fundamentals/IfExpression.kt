@@ -6,7 +6,6 @@ fun main() {
 }
 
 fun examPass(testScore: Int, midExamScore: Int, finalExamScore:Int) {
-    var pass = false
     if (testScore >= 75 && midExamScore >= 70 && finalExamScore >= 80) {
         println("You have passed the exam, Congrats!")
     } else if (testScore in 60..74 && midExamScore in 60..69 && finalExamScore in 70..89) {

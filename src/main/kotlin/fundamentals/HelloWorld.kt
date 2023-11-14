@@ -1,4 +1,4 @@
-package Fundamentals
+package fundamentals
 
 fun main() {
     print("Hello Defri :)")

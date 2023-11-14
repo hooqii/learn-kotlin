@@ -1,4 +1,4 @@
-package Fundamentals/*
+package fundamentals/*
 * Array can save date with different data types
 * Unit Array = arrayOf()
 * Integer Array = intArrayOf()

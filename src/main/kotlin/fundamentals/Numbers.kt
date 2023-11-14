@@ -1,4 +1,4 @@
-package Fundamentals
+package fundamentals
 
 /*
 We can use underscore for numbers(_)

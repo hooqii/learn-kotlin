@@ -1,4 +1,4 @@
-package Fundamentals
+package fundamentals
 
 fun main() {
     val string = "This is string"

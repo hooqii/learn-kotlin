@@ -1,5 +1,3 @@
-package Fundamentals
-
 fun main() {
     var char = 'A'
 //  Increment A to B

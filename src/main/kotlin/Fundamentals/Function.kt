@@ -1,4 +1,4 @@
-package Fundamentals//"fun" is the function key in Kotlin.
+//"fun" is the function key in Kotlin.
 //After fun key followed by function name
 //The function have a parameter placed in parentheses
 //After parameter function have an expression or return body

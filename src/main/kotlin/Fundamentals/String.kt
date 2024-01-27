@@ -1,5 +1,3 @@
-package Fundamentals
-
 fun main() {
     val string = "This is string"
     val rawString = """This

@@ -1,4 +1,4 @@
-package Fundamentals/*
+/*
 Data Type On Kotlin :
         - Numbers
         - Booleans

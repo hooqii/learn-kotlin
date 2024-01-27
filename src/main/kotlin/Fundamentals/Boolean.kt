@@ -1,4 +1,4 @@
-package Fundamentals/*
+/*
 Nilai boolean adalah true dan false
 Operasi && (And) yang akan bernilai true ketika semua kondisi true
 Operasi || (Disjunction atau Or) yang akan bernilai true ketika ada salah satu kondisi bernilai true

@@ -1,5 +1,3 @@
-package Fundamentals
-
 /*
 We can use underscore for numbers(_)
 Number types :

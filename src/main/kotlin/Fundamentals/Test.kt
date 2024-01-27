@@ -1,15 +1,9 @@
 package Fundamentals
 
-fun testCalculatePercent(totalPrice: Int): Int {
-    return when {
-        totalPrice in 20_000..50_000 -> 5
-        else -> 0
-    }
-}
-
-const val totalPrice = 25_000
-val discountPercent = testCalculatePercent(totalPrice)
-
 fun main() {
-    println(discountPercent)
+    val myArray = arrayOf(1,2,3,4,5)
+    myArray.forEach { element ->
+        val multiplyElement = element*2
+        println(multiplyElement)
+    }
 }
